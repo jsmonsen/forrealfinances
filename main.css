@@ -1,0 +1,113 @@
+p, h1, h2, body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fffdd0;
+    font-family: "Times New Roman", Helvetica, Sans-Serif;
+}
+
+h1 {
+    font-size: 18px;
+    border: solid orange;
+    background-color: orange;
+    color: white;
+    padding-bottom: 5px;
+    font-size: 16px;
+    margin-right: 15px;
+    width: 100%;
+    padding-left: 10px;
+}
+ul li {
+    display: inline;
+    position: relative;
+    float: right;
+    bottom: 25px;
+    padding-right: 5px;
+    color: white;
+    margin-right: 4px;
+}
+.first {
+    border: solid orange;
+    width: 240px;
+    height: 400px;
+    float: left;
+    margin-left: 205px;
+    margin-right: 10px;
+    background-color: white;
+    padding-bottom: 40px;
+    margin-top: 30px;
+    
+}
+.second {
+    border: solid orange;
+    width: 240px;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    background-color: white;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+.third {
+    border: solid orange;
+    width: 240px;
+    height: 400px;
+    float: left;
+    margin-right: 10px;
+    background-color: white;
+    padding-bottom: 40px;
+    margin-top: 30px;
+}
+.fourth {
+    border: solid orange;
+    width: 240px;
+    height: 400px;
+    float: left;
+    background-color: white;
+    padding-bottom: 40px;
+    position: relative;
+    margin-top: 30px;
+}
+h2 {
+    font-size: 20px;
+    margin-left: 15px;
+    padding-top: 20px;
+}
+p {
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.first-button {
+    text-align: center;
+    background-color: orange;
+    width: 225px;
+    margin-left: 8px;
+    color: white;
+    margin-top: 20px;
+}
+.second-button {
+    text-align: center;
+    background-color: orange;
+    width: 225px;
+    margin-left: 8px;
+    color: white;
+    margin-top: 20px
+}
+.third-button {
+    text-align: center;
+    background-color: orange;
+    width: 225px;
+    margin-left: 8px;
+    color: white;
+    margin-top: 20px
+}
+.fourth-button {
+    text-align: center;
+    background-color: orange;
+    width: 225px;
+    margin-left: 8px;
+    color: white;
+    margin-top: 20px
+}
