@@ -6,6 +6,14 @@ body {
     background-color: #fffdd0;
     font-family: "Times New Roman", Helvetica, Sans-Serif;
 }
+.squares {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
 
 h1 {
     font-size: 18px;
@@ -21,7 +29,6 @@ h1 {
 ul li {
     display: inline;
     position: relative;
-    float: right;
     bottom: 25px;
     padding-right: 5px;
     color: white;
@@ -31,8 +38,6 @@ ul li {
     border: solid orange;
     width: 240px;
     height: 400px;
-    float: left;
-    margin-left: 205px;
     margin-right: 10px;
     background-color: white;
     padding-bottom: 40px;
@@ -40,30 +45,30 @@ ul li {
     
 }
 .second {
+    display: flex;
     border: solid orange;
     width: 240px;
     height: 400px;
-    float: left;
     margin-right: 10px;
     background-color: white;
     padding-bottom: 40px;
     margin-top: 30px;
 }
 .third {
+    display: flex;
     border: solid orange;
     width: 240px;
     height: 400px;
-    float: left;
     margin-right: 10px;
     background-color: white;
     padding-bottom: 40px;
     margin-top: 30px;
 }
 .fourth {
+    display: flex;
     border: solid orange;
     width: 240px;
     height: 400px;
-    float: left;
     background-color: white;
     padding-bottom: 40px;
     position: relative;
